@@ -773,29 +773,6 @@ body {
 
 .contact-item a:hover {
     color: var(--olive);
-}
-
-.social-links {
-    display: flex;
-    gap: 16px;
-}
-
-.social-link {
-    width: 40px;
-    height: 40px;
-    border: 1px solid var(--gray-800);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--gray-400);
-    text-decoration: none;
-    transition: all 0.3s;
-}
-
-.social-link:hover {
-    border-color: var(--olive);
-    color: var(--olive);
     transform: translateY(-3px);
 }
 
@@ -920,4 +897,5 @@ body {
     .footer-quote {
         text-align: center;
     }
+
 }
